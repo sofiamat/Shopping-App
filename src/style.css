@@ -1,0 +1,18 @@
+:root {
+  --fontSecondairy: "Roboto", sans-serif;
+  --fontPrimary: "Poppins", sans-serif;
+  --TextEmail: #fffcf8;
+  --TextSpan: #ffffff;
+  --Text-button: #fefefe;
+  --TextFooter: #d9d9d9;
+  --TextBackground: #ebd96b;
+  --TextExplore: #7f7f7f;
+  --TextAdd-Email: #767676;
+  --TextDoznload: #7c7c7c;
+  --Text-Question: #8e8e8e;
+  --TextTitle: #000000;
+  --TextAbout: #191818;
+  --TextPhoto: #191919;
+  --TextDiscount: #231300;
+  --TextPrimary: #242323;
+}

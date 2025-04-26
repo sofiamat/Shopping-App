@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping App</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -41,74 +57,79 @@
             <p class="shopping-text">
               Live for Influential and Innovative fashion!
             </p>
-            <button class="shopping-button">Shop Now</button>
+            <a class="shopping-button" href="#arrivals">Shop Now</a>
           </article>
           <img
             class="shopping-img"
             width="871"
-            src="./src/img/pink-women-WEB.webp"
+            src="./src/img/pink-women-web.webp"
             alt="pink-women"
           />
         </section>
         <section class="sites">
-          <div class="container"></div>
-          <h2 class="arrivals-title">NEW ARRIVALS</h2>
-          <article class="sites-article">
+          <div class="container">
             <ul class="sites-list">
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/HM-WEB.webp"
-                  alt="H-&-M"
-                />
+                <a href="sites-link">
+                  <img
+                    class="sites-img"
+                    src="./src/img/hm-web.webp"
+                    alt="H-&-M"
+                /></a>
               </li>
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/OBEY-WEB.webp"
-                  alt="OBEY"
-                />
+                <a href="sites-link">
+                  <img
+                    class="sites-img"
+                    src="./src/img/obey-web.webp"
+                    alt="OBEY"
+                /></a>
               </li>
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/shopify-WEB.webp"
-                  alt="shopify"
-                />
+                <a href="sites-link">
+                  <img
+                    class="sites-img"
+                    src="./src/img/shopify-web.webp"
+                    alt="shopify"
+                /></a>
               </li>
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/LACOSTE-WEB.webp"
-                  alt="LACOSTE"
-                />
+                <a href="sites-link"
+                  ><img
+                    class="sites-img"
+                    src="./src/img/lacoste-web.webp"
+                    alt="LACOSTE"
+                /></a>
               </li>
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/LEVI'S-WEB.webp"
-                  alt="levi's"
-                />
+                <a href="sites-link">
+                  <img
+                    class="sites-img"
+                    src="./src/img/levi's-web.webp"
+                    alt="levi's"
+                /></a>
               </li>
               <li class="sites-item">
-                <img
-                  class="sites-img"
-                  src="./src/img/AMAZON-WEB.webp"
-                  alt="AMAZON"
-                />
+                <a href="sites-link">
+                  <img
+                    class="sites-img"
+                    src="./src/img/amazon-web.webp"
+                    alt="AMAZON"
+                /></a>
               </li>
             </ul>
-          </article>
+          </div>
         </section>
-        <section class="arrivals">
+        <section class="arrivals" id="arrivals">
           <div class="container">
+            <h2>NEW ARRIVALS</h2>
             <ul class="arrivals-list">
               <li class="arrivals-item">
                 <article class="arrivals-article">
                   <div class="arrivals-photo">
                     <img
                       class="arrivals-img"
-                      src="./src/img/orange-hoodie-WEB.webp"
+                      src="./src/img/orange-hoodie-web.webp"
                       alt="Sweetshirt"
                     />
                   </div>
@@ -123,7 +144,7 @@
                   <div class="arrivals-photo">
                     <img
                       class="arrivals-img"
-                      src="./src/img/blue-coats-WEB.webp"
+                      src="./src/img/blue-coats-web.webp"
                       alt="Parkas"
                     />
                   </div>
@@ -138,7 +159,7 @@
                   <div class="arrivals-photo">
                     <img
                       class="arrivals-img"
-                      src="./src/img/white-tees-WEB.webp"
+                      src="./src/img/white-tees-web.webp"
                       alt="T-Shirt"
                     />
                   </div>
@@ -157,7 +178,7 @@
             <img
               class="publicity-img"
               width="991"
-              src="./src/img/women-stars-WEB.webp"
+              src="./src/img/women-stars-web.webp"
               alt="women with the stars"
             />
           </article>
@@ -182,7 +203,7 @@
                   <div class="favourite-photo">
                     <img
                       class="favourite-img"
-                      src="./src/img/trending-WEB.webp"
+                      src="./src/img/trending-web.webp"
                       alt="Social networks"
                     />
                   </div>
@@ -197,7 +218,7 @@
                   <div class="favourite-photo">
                     <img
                       class="favourite-img"
-                      src="./src/img/discount-WEB.webp"
+                      src="./src/img/discount-web.webp"
                       alt="discount"
                     />
                   </div>
@@ -222,14 +243,14 @@
                 <li class="download-item">
                   <img
                     class="download-img"
-                    src="./src/img/app-store-WEB.webp"
+                    src="./src/img/app-store-web.webp"
                     alt="App Store"
                   />
                 </li>
                 <li class="download-item">
                   <img
                     class="download-img"
-                    src="./src/img/google-play-WEB.webp"
+                    src="./src/img/google-play-web.webp"
                     alt="Google-play"
                   />
                 </li>
@@ -251,6 +272,18 @@
             <p class="email-text">
               Type your email down below and be young wild generation
             </p>
+            <div class="send">
+              <form name="user_email" autocomplete="on" novalidate>
+                <label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Add your email here"
+                  />
+                </label>
+              </form>
+              <button class="send-button">SEND</button>
+            </div>
           </div>
         </section>
       </div>
