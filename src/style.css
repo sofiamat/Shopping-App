@@ -272,22 +272,34 @@ body {
   display: flex;
 }
 
+.download {
+  gap: 305px;
+}
+
 .download-title {
   font-weight: 900;
   font-size: 48px;
-  gap: 305;
-  padding-top: 411px;
+
+  padding-top: 401px;
+  padding-bottom: 41px;
+  width: 507px;
 }
 
 .download-text {
   font-weight: 500;
   font-size: 24px;
   color: var(--TextDownload);
+  padding-bottom: 65px;
+  width: 419px;
 }
 
 .download-list {
   display: flex;
   gap: 19px;
+}
+
+.download-photo {
+  margin: 220px 218px 220px 305px;
 }
 
 .email {
