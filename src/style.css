@@ -132,6 +132,11 @@ body {
   margin-top: 68px;
 }
 
+.sites {
+  background-color: var(--TextBackground);
+  text-align: center;
+}
+
 .sites-container {
   display: flex;
 }
@@ -140,7 +145,7 @@ body {
   display: flex;
   text-align: center;
   gap: 121px;
-  background-color: var(--TextBackground);
+
   padding: 61px 121px 55px;
 }
 
@@ -190,7 +195,10 @@ body {
   background-image: url(./img/publicity-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   background-size: 1924px;
+
+  height: 968px;
 }
 
 .publicity-container {
@@ -202,14 +210,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding: 138px 199px 155px 0px;
+  padding: 138px 199px 155px 1060px;
 }
 
 .payday-title {
   font-weight: 900;
   font-size: 112px;
   line-height: 137.2px;
-  background-color: var();
+  max-width: 593px;
+
   padding-bottom: 33px;
 }
 
@@ -239,6 +248,8 @@ body {
   background-color: var(--TextTitle);
   padding: 27px 51px 38px 51px;
   border-radius: 8px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .favourite-container {
@@ -273,6 +284,7 @@ body {
 }
 
 .download {
+  padding-left: 219px;
   gap: 305px;
 }
 
@@ -280,17 +292,18 @@ body {
   font-weight: 900;
   font-size: 48px;
 
-  padding-top: 401px;
+  padding-top: 275px;
   padding-bottom: 41px;
-  width: 507px;
+  max-width: 507px;
 }
 
 .download-text {
   font-weight: 500;
   font-size: 24px;
   color: var(--TextDownload);
+
   padding-bottom: 65px;
-  width: 419px;
+  max-width: 419px;
 }
 
 .download-list {
@@ -299,7 +312,8 @@ body {
 }
 
 .download-photo {
-  margin: 220px 218px 220px 305px;
+  margin: 0px 218px 220px 305px;
+  gap: 305px;
 }
 
 .email {
@@ -359,6 +373,12 @@ body {
   padding-bottom: 147px;
 }
 
+.footer-container {
+  display: flex;
+  gap: 187px;
+  flex-direction: row;
+}
+
 .footer-info {
   display: flex;
   flex-direction: column;
@@ -380,12 +400,52 @@ body {
   padding-left: 100px;
 }
 
-.footer-list {
+.networks-list {
   display: flex;
-  flex-direction: column;
-  padding-right: 118px;
+  gap: 14px;
+  padding-top: 32px;
+  padding-left: 100px;
 }
 
-.footer-title {
+.company-title,
+.link-title,
+.legal-title {
+  font-weight: 400;
+  line-height: 40px;
   color: var(--TextFooter);
+  font-size: 24px;
+  margin: 36px;
+}
+
+.company-list,
+.link-list,
+.legal-list {
+  /* display: flex; */
+  flex-direction: column;
+
+  gap: 37px;
+}
+
+.company-title,
+.link-title,
+.legal-title {
+  /* display: flex; */
+  flex-direction: column;
+
+  gap: 37px;
+}
+
+.company-item,
+.link-item,
+.legal-item {
+  font-family: var(--fontSecondairy);
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.company-list:hover,
+.link-list:hover,
+.legal-list:hover {
+  opacity: 0.8;
 }
